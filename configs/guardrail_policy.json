@@ -1,0 +1,34 @@
+{
+  "name": "agentic-system-guardrail",
+  "description": "Content and PII filtering for agentic system",
+  "contentPolicyConfig": {
+    "filtersConfig": [
+      { "type": "HATE", "inputStrength": "HIGH", "outputStrength": "HIGH" },
+      { "type": "INSULTS", "inputStrength": "HIGH", "outputStrength": "HIGH" },
+      { "type": "SEXUAL", "inputStrength": "HIGH", "outputStrength": "HIGH" },
+      { "type": "VIOLENCE", "inputStrength": "HIGH", "outputStrength": "HIGH" },
+      { "type": "MISCONDUCT", "inputStrength": "HIGH", "outputStrength": "HIGH" },
+      { "type": "PROMPT_ATTACK", "inputStrength": "HIGH", "outputStrength": "NONE" }
+    ]
+  },
+  "sensitiveInformationPolicyConfig": {
+    "piiEntitiesConfig": [
+      { "type": "EMAIL", "action": "ANONYMIZE" },
+      { "type": "PHONE", "action": "ANONYMIZE" },
+      { "type": "US_SOCIAL_SECURITY_NUMBER", "action": "BLOCK" },
+      { "type": "CREDIT_DEBIT_CARD_NUMBER", "action": "BLOCK" },
+      { "type": "US_BANK_ACCOUNT_NUMBER", "action": "BLOCK" }
+    ]
+  },
+  "topicPolicyConfig": {
+    "topicsConfig": [
+      {
+        "name": "IllegalActivities",
+        "definition": "Instructions or advice that could enable illegal activities.",
+        "type": "DENY"
+      }
+    ]
+  },
+  "blockedInputMessaging": "Your query was blocked by our content policy.",
+  "blockedOutputsMessaging": "The response was blocked by our content policy."
+}

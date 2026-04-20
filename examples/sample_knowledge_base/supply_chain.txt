@@ -1,0 +1,18 @@
+Q3 2025 Supply Chain Risk Assessment
+
+Key risks identified during Q3 2025:
+
+1. Semiconductor shortage: Our primary supplier has indicated 8-12 week
+   delays for Q1 2026 orders. Mitigation: diversified to 2 additional
+   suppliers in Taiwan and Korea.
+
+2. Shipping cost inflation: Container rates rose 23% this quarter.
+   Mitigation: renegotiated annual contracts locking in 2025 rates.
+
+3. Single-source dependency: 40% of raw materials still come from one
+   region. Recommendation: aggressive dual-sourcing initiative in Q4.
+
+4. Labor shortage at distribution centers: 12% vacancy rate vs 4% in 2024.
+   Addressing with automation investments and improved wages.
+
+Overall risk rating: MODERATE (up from LOW in Q2 due to geopolitical factors).

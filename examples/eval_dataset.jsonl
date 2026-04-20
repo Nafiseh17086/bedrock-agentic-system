@@ -1,0 +1,5 @@
+{"query": "What was our Q3 2025 revenue?", "expected_keywords": ["127", "18%"]}
+{"query": "How does our revenue compare to competitor A?", "expected_keywords": ["127", "340"]}
+{"query": "What are the top supply chain risks this quarter?", "expected_keywords": ["semiconductor", "shipping"]}
+{"query": "What is our operating margin?", "expected_keywords": ["14.2", "margin"]}
+{"query": "Which region generated the most revenue?", "expected_keywords": ["North America", "78"]}
