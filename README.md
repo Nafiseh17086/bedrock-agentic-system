@@ -10,7 +10,11 @@
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ---
+## 📊 Live Benchmark Results
 
+![Benchmark comparing Prompt vs RAG vs Agents](docs/images/benchmark.png)
+
+---
 ## 🎯 What This Project Demonstrates
 
 This project traces **the entire evolution** of how you build with LLMs in production:
